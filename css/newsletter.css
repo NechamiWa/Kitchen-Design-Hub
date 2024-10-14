@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 500;
+}
+
+body {
+  background-color: #F7ECE8;
+}
+
+h1 {
+  color: #3A140F;
+  letter-spacing: 5px;
+  margin: 15% 35% 0% 35%;
+}
+
+p {
+  color: #3A140F;
+  margin: 1% 31.5% 0% 31.5%;
+  letter-spacing: 3px;
+}
+
+form {
+  background-color: #F7ECE8;
+  width: 35%;
+  height: 50%;
+  margin: 0% 32.5% 1% 32.5%;
+  padding: 50px;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: solid black 2px;
+  border-radius: 8px;
+  background-color: #F7ECE8;
+  color: black;
+}
+
+#checkbox {
+  padding: 0px;
+  width: 30%;
+}
+
+button {
+  color: white;
+  background-color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  width: 100%;
+  border-radius: 10px;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+}
+
+@media screen and (max-width: 1800px) {
+  div h1 {
+    letter-spacing: 1vw;
+    margin: 15vw 10vw 0vw 10vw;
+    padding-bottom: 0vw;
+    line-height: 100%;
+    font-size: 2.7vw;
+    text-align: center;
+  }
+
+  p {
+    margin: 1vw 22vw 0vw 22vw;
+  }
+
+  form {
+    width: 70vw;
+    margin: 0.5vw 15vw 0vw 15vw;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  div h1 {
+    letter-spacing: 1vw;
+    margin: 15vw 30vw 0vw 30vw;
+    padding-bottom: 0vw;
+    line-height: 100%;
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  p {
+    display: none;
+  }
+
+  form {
+    width: 70vw;
+    margin: 0.5vw 15vw 0vw 15vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div h1 {
+    letter-spacing: 1vw;
+    margin: 30vw 30vw 5vw 30vw;
+    line-height: 100%;
+    font-size: 6vw;
+    text-align: center;
+  }
+
+  p {
+    display: none;
+  }
+
+  form {
+    width: 90vw;
+    margin: 0.5vw 5vw 20vw 5vw;
+    /* margin: 0vw; */
+  }
+
+}

@@ -1,0 +1,164 @@
+html, body {
+    position: absolute;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.prod-intro {
+    background-color: rgba(188, 120, 96, 0.5);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6%;
+    margin-left: 2%;
+    margin-right: 2%;
+    align-items: center;
+    height: 60vh;
+}
+
+.prod-intro img {
+    width: 540px;
+    height: 630px;
+}
+
+#text-intro {
+    padding-left: 10px;
+    font-style: normal;
+    color: #3A140F;
+    line-height: 190%;
+}
+
+#text-intro :nth-child(1) {
+    font-size: 46px;
+}
+
+#text-intro :nth-child(2) {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 100%;
+}
+
+#text-intro :nth-child(3) {
+    font-style: normal;
+    font-weight: 80;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 60%;
+    padding: 13% 20% 10% 20%;
+    gap: 30px;
+}
+
+.grid-item {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+.grid-item:hover{
+  opacity: 70%;
+}
+
+picture {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1000px) {
+
+    .prod-intro {
+        display: flex;
+        margin-top: 15%;
+        height: 30%;
+    }
+
+    .prod-intro img {
+        width: 320px;
+        height: 400px;
+    }
+
+    #text-intro :nth-child(1) {
+        font-size: 6vw;
+        margin-bottom: 4%;
+        padding-left: 10px;
+    }
+
+    #text-intro :nth-child(2) {
+        display: none;
+    }
+
+    #text-intro :nth-child(3) {
+        font-size: 2vw;
+        padding-left: 10px;
+    }
+
+    .grid-container {
+        width: 70%;
+        padding-left: 10%;
+        padding-right: 10%;
+        gap: 20px;
+        padding-bottom: 10%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .prod-intro img {
+        display: none;
+    }
+
+    .prod-intro {
+        display: flex;
+        margin-top: 15%;
+        height: 30%;
+    }
+
+    #text-intro {
+        padding: 5%;
+    }
+
+    #text-intro :nth-child(1) {
+        font-size: 8vw;
+        margin-bottom: 2%;
+    }
+
+    #text-intro :nth-child(2) {
+        display: flex;
+        margin-top: 0;
+        font-size: 5vw;
+    }
+
+    #text-intro :nth-child(3) {
+        font-size: 3vw;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+        margin: 10% 2% 0% 2%;
+        padding-bottom: 10%;
+    }
+
+    .grid-item {
+        width: 90%;
+        height: 90%;
+    }
+
+    /* footer {
+        padding: 6%;
+    }
+
+    footer p {
+        font-size: 3vw;
+        line-height: 110%;
+    }
+
+    footer img {
+        width: 35%;
+    } */
+
+}

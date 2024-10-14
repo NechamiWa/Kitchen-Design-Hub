@@ -1,0 +1,34 @@
+body,
+main {
+    background-color: #F7ECE8;
+    position: relative;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+tr,
+td {
+    text-align: center;
+    padding: 30px;
+}
+
+th {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 8px;
+}

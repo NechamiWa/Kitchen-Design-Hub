@@ -1,0 +1,40 @@
+body {
+    background-color: #F7ECE8;
+    position: relative;
+    box-sizing: border-box;
+}
+.border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid black;
+    height: 100%;
+    margin: 10%;
+}
+
+.border i {
+    font-size: 1000%;
+    padding: 5%;
+}
+
+.border h1 {
+    padding: 5%;
+    line-height: 120%;
+}
+
+a button {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 8px;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}

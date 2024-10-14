@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 500;
+}
+
+body {
+    background-color: #F7ECE8;
+}
+
+main h1 {
+    color: #3A140F;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 8% 5% 0% 5%;
+    line-height: 100%;
+}
+
+main p {
+    color: #3A140F;
+    margin: 1% 36% 0% 36%;
+    letter-spacing: 3px;
+}
+
+form {
+    background-color: #F7ECE8;
+    width: 35%;
+    height: 50%;
+    margin: 0% 32.5% 1% 32.5%;
+    padding: 50px;
+}
+
+form input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: solid black 2px;
+    border-radius: 8px;
+    background-color: #F7ECE8;
+    color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 8px;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+#join {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1400px) {
+    main h1 {
+        letter-spacing: 0.01vw;
+        margin: 10vw 45vw 2vw 45vw;
+        line-height: 100%;
+        font-size: 2.5vw;
+    }
+
+    main p {
+        color: #3A140F;
+        margin: 0vw 35vw 0vw 35vw;
+        letter-spacing: 0.2vw;
+        font-size: 1vw;
+    }
+
+    form {
+        width: 35vw;
+        margin: 0.5vw 32.5vw 0vw 32.5vw;
+        padding: 0vw 3vw 0vw 3vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    main h1 {
+        letter-spacing: 0.01vw;
+        margin: 20vw 40vw 2vw 40vw;
+        line-height: 100%;
+        font-size: 3vw;
+    }
+
+    main p {
+        color: #3A140F;
+        margin: 0vw 30vw 0vw 30vw;
+        letter-spacing: 0.2vw;
+        font-size: 1.5vw;
+    }
+
+    form {
+        width: 65vw;
+        margin: 0.5vw 17.5vw 0vw 17.5vw;
+        padding: 0px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    main h1 {
+        letter-spacing: 1vw;
+        margin: 35vw 30vw 2vw 30vw;
+        line-height: 100%;
+        font-size: 5vw;
+    }
+
+    main p {
+        color: #3A140F;
+        margin: 0vw 20vw 3vw 20vw;
+        letter-spacing: 0vw;
+        font-size: 2.5vw;
+    }
+
+    form {
+        width: 85vw;
+        margin: 0.5vw 5vw 0vw 5vw;
+        padding: 0vw;
+    }
+}
